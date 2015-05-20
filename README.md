@@ -17,6 +17,12 @@ $ curl -L -k https://get.docker.com/builds/Windows/x86_64/docker-latest.exe > /d
 $ curl -L -k https://github.com/docker/machine/releases/download/v0.2.0/docker-machine_windows-amd64.exe > /docker/docker-machine.exe
 ```
 
+Check version:
+
+```sh
+$ docker-machine -v
+```
+
 ### Todo's
 
  - Create a docker img
