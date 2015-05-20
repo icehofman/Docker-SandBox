@@ -18,7 +18,11 @@ $ docker-machine -v
 ```
 Show all available machines:
 ```sh
-docker-machine ls
+$ docker-machine ls
+```
+Create a machine:
+```sh
+$ docker-machine create --driver virtualbox dev
 ```
 ### Todo's
 
