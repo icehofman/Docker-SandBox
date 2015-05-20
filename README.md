@@ -50,6 +50,19 @@ Log into or run a command on a machine using SSH:
 $ docker-machine ssh dev
 ```
 
+Folder sharing:
+```sh
+$ docker run -v /data --name my-data busybox true
+$ docker run --rm -v /usr/local/bin/docker:/docker -v /var/run/docker.sock:/docker.sock svendowideit/samba my-data
+$ docker run -it --volumes-from my-data ubuntu
+$ docker-machine ip
+```
+
+On Windows, use Explorer to Connect to:
+```
+\\192.168.59.103\data
+```
+
 ### Todo's
 
  - Create a docker img
