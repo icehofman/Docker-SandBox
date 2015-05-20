@@ -63,6 +63,11 @@ On Windows, use Explorer to Connect to:
 \\192.168.59.103\data
 ```
 
+On Ubuntu:
+```
+sudo chmod -R 777 /data
+```
+
 ### Todo's
 
  - Create a docker img
