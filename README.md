@@ -36,7 +36,7 @@ $ docker-machine active dev
 
 Remove machine:
 ```sh
-$ docker-machine rm dev staging
+$ docker-machine rm dev
 ```
 
 ### Todo's
