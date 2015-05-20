@@ -39,6 +39,17 @@ Remove machine:
 $ docker-machine rm dev
 ```
 
+Control machine:
+```sh
+$ docker-machine stop dev
+$ docker-machine start dev
+```
+
+Log into or run a command on a machine using SSH:
+```sh
+$ docker-machine ssh dev
+```
+
 ### Todo's
 
  - Create a docker img
