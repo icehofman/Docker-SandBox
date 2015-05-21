@@ -65,7 +65,7 @@ On Windows, use Explorer to Connect to:
 
 On Ubuntu:
 ```
-sudo chmod -R 777 /data
+chmod -R 777 /data
 ```
 
 Configure your environment variables:
