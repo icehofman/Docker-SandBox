@@ -68,6 +68,14 @@ On Ubuntu:
 sudo chmod -R 777 /data
 ```
 
+Configure your environment variables:
+```
+$ docker-machine env dev
+# change the "export" keyword to "set", remove the " and the double back-slashes
+set DOCKER_TLS_VERIFY=1
+set DOCKER_CERT_PATH=C:\\Users\\user\\.docker\\machine\\machines\\dev
+set DOCKER_HOST=tcp://192.168.99.100:2376
+```
 ### Todo's
 
  - Create a docker img
